@@ -22,9 +22,5 @@ namespace Wild
 			Gizmos.color = Color.blue;
 			Gizmos.DrawWireSphere(Vector3.zero, gizmoRadius);
 		}
-
-
-		[Header("Physics")]
-		public Vector3 physicsBox = Vector3.one;
 	}
 }

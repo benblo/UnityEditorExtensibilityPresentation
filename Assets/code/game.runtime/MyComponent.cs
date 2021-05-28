@@ -11,6 +11,8 @@ namespace Wild
 		public bool myBool;
 		public int myInt;
 		public float myFloat;
+		[Range(20, 50)]
+		public float myFloatWithSlider = 25;
 
 		public enum MyEnum
 		{
@@ -25,5 +27,9 @@ namespace Wild
 		}
 
 		public MyClass myClassInstance;
+
+
+		[Header("Physics")]
+		public Vector3 physicsBox = Vector3.one;
 	}
 }
